@@ -5,7 +5,17 @@ Fake Data Generator in PHP.
 日本用のダミーデータ作成ライブラリ。キラキラした名前を生成します。
 
 
-# Usage
+## Usage
+
+読み込み
+
+* require_onceする
+`require_once 'vendor/Faker/Japanese.php';`
+* autoloaderを使う
+* comporserを使う場合  
+`"demouth/faker_japanese": "dev-master"`
+
+使い方
 
 ```php
 require_once 'vendor/Faker/Japanese.php';
@@ -39,6 +49,6 @@ object(Faker_Japanese)#1 (7) {
 池田 ハム太郎（いけだ はむたろう）
 ```
 
-# License
+## License
 
 Faker is released under the MIT Licence. See the bundled LICENSE file for details.
