@@ -7,15 +7,16 @@ Fake Data Generator in PHP.
 
 ## Usage
 
-読み込み
+#### 読み込み方
 
-* require_onceする
+* require_onceする  
 `require_once 'vendor/Faker/Japanese.php';`
-* autoloaderを使う
+* autoloaderを使う  
+psr-0準拠なので、autoloaderで読み込めます
 * comporserを使う場合  
 `"demouth/faker_japanese": "dev-master"`
 
-使い方
+#### 使い方
 
 ```php
 require_once 'vendor/Faker/Japanese.php';
